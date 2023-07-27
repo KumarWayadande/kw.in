@@ -1,0 +1,10 @@
+/*
+
+
+    grid-column-start : 1;      ----
+    grid-column-end : 2;        ---- 
+    grid-row-start : 3;         ----    short-hand property :: grid-area : 3 / 1 / 4 / 2
+    grid-row-end : 4;           ----
+
+
+*/

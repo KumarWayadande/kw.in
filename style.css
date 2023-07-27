@@ -1,0 +1,405 @@
+/* Section Number 1 */
+
+
+.container{
+    /* background-color: rgb(139, 145, 145); */
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+/* Navbar Css */
+
+.navbar-items-container{
+    width: 85%;
+}
+
+
+.navbar-button{
+    background-color: white;
+    color: black;
+    border-color: grey;
+    font-weight: 400;
+    border-radius: 40px;
+}
+
+
+.navbar-button:hover{
+
+    background-color: #8b865c;
+    color: white;
+
+}
+
+/* Section Number : 1 i.e Landing Page*/
+
+.section-1-container{
+
+    width: 85%;
+    margin: 120px auto 0 auto;
+    display: grid;
+    grid-template-columns:1.5fr 2fr;
+    grid-template-rows:0.5fr;
+    grid-auto-rows: 1fr;
+}
+
+.section-1-heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.section-1-heading, .section-1-span-heading, .details-heading, .section-3-part-1-heading, .section-4-heading, .section-5-heading-container, .section-6-part-1-heading{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 0 1%;
+}
+
+.section-1-span-heading, .section-6-span-heading{
+    color : #8b865c;
+}
+
+.section-1-para, .details, .section-4-para{
+    margin: 4% 0;
+    padding: 0 0 0 1%;
+    text-align: justify;
+}
+
+/* Image Container */
+.section-1-image-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-1-image{
+    max-width: 70%;
+    min-width: 100px;
+    height: auto;
+}
+
+
+
+/* End of Section Number 1 */
+
+
+
+/* 
+    Section Number 2 
+    About Me Section 
+*/
+
+
+.section-2-container, .section-3-container, .section-4-container, .section-5-container, .section-6-container{
+
+    width: 85%;
+    margin: 8% auto 10% auto;
+    display: grid;
+    grid-template-columns:2fr 1.5fr;
+    grid-template-rows: 0.5fr;
+    grid-auto-rows: 1fr;
+}
+
+
+.profile-photo{
+    max-width: 75%;
+    height: auto;
+}
+
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.profile-photo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+/* Section Number 3 : Services */
+
+.section-3-container{
+    display: block;
+}
+
+.section-2-part-1, .section-5-heading-container, .section-6-part-1{
+    text-align: center;
+}
+
+.section-2-part-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.service-card{
+    margin: 5%;
+}
+
+.service-card:hover{
+    background-color: #8b865c;
+    color: #fff;
+    font-size: large;
+}
+
+.card-header{
+    height: 25%;
+    /* background-color: #b9b68d; */
+    text-align: center;
+}
+
+.fa{
+    font-size: 40px;
+    color: #8b865c;
+}
+
+
+/* 
+    Section Number 4
+ */
+
+
+ .section-4-container{
+
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:0.5fr;
+    grid-auto-rows: 1fr;
+    gap: 5%;
+}
+
+.section-4-heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills-inner-progress-bar{
+    width: 0;
+    /* transition-delay: width 4s; */
+    /* transition-timing-function: linear; */
+    transition: width 2s linear 0.3s;
+    background-color: #8b865c;
+    height: 3px;
+}
+
+.progress{
+    height: 7px;
+    margin: 0 0 4% 0;
+}
+
+.skill-heading-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-level{
+    color: #8b865c;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+
+
+/* 
+    Section Number 5 - Projects
+ */
+
+ .section-5-container{
+        display: block;
+ }  
+
+ .section-5-projects-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .project-card{
+    margin: 5%;
+    width: 100%;
+    height: auto;
+ }
+
+ .section-5-card-images{
+    width: 150%;
+ }
+
+ .section-5-card-body{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+ }
+
+
+
+
+/* 
+    Section Number 6
+ */
+
+.section-6-container {
+    display: block;   
+}
+
+.section-6-part-2{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr;
+    margin: 5% 0;
+}
+
+.section-6-part2-personal-info{
+    display: grid;
+    grid-template-columns: 0.1fr 2fr;
+    grid-template-rows:1fr 1fr 1fr;
+    gap: 3%;
+}
+
+.section-6-part2-icon-container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.personal-info-icon{
+
+    font-weight: 900;
+    font-size: x-large;
+}
+
+
+
+/* 
+        Footer
+*/
+
+
+
+.footer{
+    background-image : linear-gradient(to right,#29323c,#485563,#2b5876,#4e4376);
+    color: #fff;
+    padding: 5%;
+    text-align: center;
+}
+
+.author-name{
+    margin: 3% 0 0 0;
+}
+
+.social-media-icon{
+    color: #fff;
+    margin: 0 0.5%;
+    font-size: large;
+}
+
+/* 
+    Media Queries
+
+*/
+
+
+
+@media (max-width:500px){
+    
+
+    /* Navbar CSS */
+    .navbar-items-container{
+        width: 100%;
+    }
+
+    .section-2-container{
+        margin-top: 30%;
+    }
+
+}
+
+
+@media (max-width:970px){
+    
+        .section-1-image, .profile-photo{
+            max-width: 90%;
+        }
+}
+
+
+@media (max-width:720px){
+ 
+    .section-1-image, .profile-photo{
+        max-width: 80%;
+    }
+
+    .section-1-container, .section-2-container, .section-4-container{
+        width: 95%;
+        margin-bottom: 30%;
+    }
+
+    .section-1-image-container{
+        grid-column: span 2;
+        justify-content: center;
+    }
+    .section-1-heading-container{
+        grid-column: span 2;
+        justify-content: flex-start;
+    }
+    
+    .details-container{
+        order: 1;
+        grid-column: span 2;
+    }
+    .profile-photo-container{
+        order: 2;
+        grid-column: span 2;
+        align-items: center;
+    }
+    .details-heading{
+        align-self: center;
+    }
+    .section-4-heading-container{
+        grid-column: span 2;
+        justify-content: center;
+    }
+    .section-4-skills-container{
+        grid-column: span 2;
+        justify-content: center;
+    }
+
+    .section-4-heading{
+        text-align: center;
+    }
+
+    .section-6-part2-col1{
+        grid-column: span 2;
+        margin: 5% 0 2% 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(0);
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
