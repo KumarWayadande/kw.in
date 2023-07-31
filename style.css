@@ -56,7 +56,7 @@
     padding: 0 0 0 1%;
 }
 
-.section-1-span-heading, .section-6-span-heading{
+.section-1-span-heading, .section-6-span-heading, .section-5-span{
     color : #8b865c;
 }
 
@@ -90,7 +90,7 @@
 */
 
 
-.section-2-container, .section-3-container, .section-4-container, .section-5-container, .section-6-container{
+.section-2-container, .section-3-container, .section-4-container, .section-5-container, .section-6-container, .project-card-container{
 
     width: 85%;
     margin: 8% auto 10% auto;
@@ -132,7 +132,7 @@
     display: block;
 }
 
-.section-2-part-1, .section-5-heading-container, .section-6-part-1{
+.section-2-part-1, .section-6-part-1, .section-5-heading{
     text-align: center;
 }
 
@@ -216,35 +216,33 @@
  */
 
  .section-5-container{
-        display: block;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
  }  
 
- .section-5-projects-container{
+.project-card-container{
     display: flex;
-    align-items: center;
-    flex-direction: column;
- }
-
- .project-card{
-    margin: 5%;
-    width: 100%;
-    height: auto;
- }
-
- .section-5-card-images{
-    width: 150%;
- }
-
- .section-5-card-body{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
     flex-wrap: wrap;
- }
+    justify-content: space-between;
+    /* align-content: center; */
+}
+
+.project-card{
+    margin-bottom: 3%;
+}
+
+.fa-link{
+    font-size: small;
+    margin-bottom: 23px;
+    color: darkslateblue;
+}
 
 
-
-
+.project-heading{
+    color: #000;
+    text-decoration: none;
+}
 /* 
     Section Number 6
  */
@@ -330,6 +328,10 @@
         .section-1-image, .profile-photo{
             max-width: 90%;
         }
+
+        .project-card-container{
+            justify-content: center;
+        }
 }
 
 
@@ -383,15 +385,6 @@
         margin: 5% 0 2% 0;
     }
 }
-
-
-
-
-
-
-
-
-
 
 .reveal{
     position: relative;
