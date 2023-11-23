@@ -5,6 +5,7 @@ window.addEventListener('scroll', reveal);
 
 function changeColor(thisElemenet, flag){
     thisElemenet.childNodes[1].childNodes[1].style.color = (flag === 1 ? "#8b865c" : "white");
+    // None
 }
 
 
