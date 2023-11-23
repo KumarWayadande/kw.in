@@ -4,12 +4,7 @@ window.addEventListener('scroll', reveal);
 
 
 function changeColor(thisElemenet, flag){
-    if(flag==1){
-        thisElemenet.childNodes[1].childNodes[0].style.color="#8b865c";    
-    }
-    else{
-        thisElemenet.childNodes[1].childNodes[0].style.color="white";
-    }
+    thisElemenet.childNodes[1].childNodes[1].style.color = (flag === 1 ? "#8b865c" : "white");
 }
 
 
